@@ -11,4 +11,4 @@ Currently, two official plugins are available:
 
 
 
-<img src="./public/screenshot.png" alt="drawing" width="250px"/>
+<img src="./public/screenshot.png" alt="drawing" width="250"/>
