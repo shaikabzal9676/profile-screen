@@ -1,7 +1,6 @@
 # Profile Screen
 <br>
 
-
 <h2>Site Link
 </h2>
 <a href='https://abzal.netlify.app/' >https://abzal.netlify.app/</a>
