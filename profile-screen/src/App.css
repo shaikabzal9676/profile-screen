@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+}
+.navLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.navTitle {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+.navRight {
+  margin-right: 20px;
+}
+.navBtn {
+  width: max-content;
+  background-color: rgb(223, 171, 0);
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width:600px) {
+  .navBtn{
+    height: 40px;
+  }
+  
+}
+.profileCover {
+  position: relative;
+}
+.profileCoverImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+@media (max-width: 600px) {
+  .profileCoverImg {
+    height: 200px;
+  }
+}
+
+.profileImg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  left: 4%;
+  top: 80%;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  .profileImg {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 1%;
+    top: 80%;
+  }
+}
+
+.diamond {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.bluetick {
+  width: 1rem;
+  height: 1rem;
+}
+.symbols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.name {
+  width: max-content;
+  font-size: 40px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .name {
+    font-size: 30px;
+    margin: 5px 0 0 70px;
+  }
+}
+.follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  background-color: white;
+}
+.follower {
+  display: flex;
+  flex-direction: column;
+}
+.followers {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border: 1px solid grey;
+  border-radius: 7px;
+  color: lightgray;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 2px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  .follow {
+    margin-left: 40px;
+  }
+  .followers {
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+.profileTop {
+  display: flex;
+  flex-direction: column;
+}
+.profileInfo {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem;
+}
+.desc {
+  font-size: 20px;
+}
+@media (max-width: 600px) {
+  .desc {
+    font-size: medium;
+  }
+}
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.like {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+@media (max-width: 600px) {
+  .like {
+    width: 20px;
+    height: 20px;
+  }
+}
+.mainDetails {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.postTitle {
+  margin-bottom: 10px;
+}
+.postCount {
+  color: rgb(26, 157, 209);
+  border-top: 2px solid whitesmoke;
+  border-right: 2px solid whitesmoke;
+  font-size: 30px;
+  width: max-content;
+  cursor: pointer;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  .count {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  .postCount {
+    padding: 10px;
+  }
+}
+
+.post:hover,
+.followers {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.post {
+
+  margin-bottom: 50px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border: 1px solid white;
+}
+
+.postBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.caption {
+  color: rgb(21, 147, 197);
+}
+.postBottomLeft {
+  gap: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 600px) {
+  .postBottomLeft,
+  .postBottomRight {
+    font-size: 14px;
+  }
+}
+.postBottomRight {
+  gap: 0.5rem;
+  display: flex;
+}
+
+.author {
+  font-weight: 400;
+}
