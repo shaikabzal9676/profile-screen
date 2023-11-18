@@ -21,6 +21,9 @@ Currently, two official plugins are available:
 ## Run Locally
 Clone the project
 
+```
+https://github.com/shaikabzal9676/profile-screen.git
+```
 ## Installing
 <p>Installing NPM modules on both client and server folders
 
@@ -28,12 +31,11 @@ Execute these commands from the project directory</p>
 ```
 npm install
 ```
-```
-npm install
-```
+
 
 ## Running the app
 <p>Start the server</p>
+
 ```
 npm run dev
 ```
