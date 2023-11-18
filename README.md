@@ -22,3 +22,5 @@ Currently, two official plugins are available:
 <p>Installing NPM modules on both client and server folders
 
 Execute these commands from the project directory</p>
+
+```cd client && npm install```
