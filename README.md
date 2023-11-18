@@ -17,3 +17,8 @@ Currently, two official plugins are available:
 
 
 <img src="./public/screenshot.png" alt="drawing" width="250"/>
+
+<h3>Installing</h3>
+<p>Installing NPM modules on both client and server folders
+
+Execute these commands from the project directory</p>
