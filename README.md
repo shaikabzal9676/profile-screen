@@ -39,3 +39,14 @@ npm install
 ```
 npm run dev
 ```
+
+## Code Components
+### Navbar
+This component have a logo , Website Name and course button.
+
+### Profile
+This component will display the profile picture , followers ,website ,likes ,,.and other details of one's profile.
+### Posts
+In This component we import dummyData for fetching the profile details and to display the posts .
+### DummyData
+This is a local json file to fetch the profile details and posts .
