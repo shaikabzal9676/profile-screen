@@ -23,5 +23,14 @@ Currently, two official plugins are available:
 
 Execute these commands from the project directory</p>
 ```
-cd client && npm install
+npm install
+```
+```
+npm install
+```
+
+## Running the app
+### Open a terminal on server directory
+```
+npm run dev
 ```
